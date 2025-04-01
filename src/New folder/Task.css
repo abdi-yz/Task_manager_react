@@ -1,0 +1,48 @@
+.task-box {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .task-box.completed {
+    background-color: #d4edda;
+  }
+  
+  .task-box h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .task-box p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .task-box label {
+    display: inline-block;
+    margin-right: 10px;
+    color:rgb(64, 155, 125);
+  }
+  
+  .task-box button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .task-box button:hover {
+    background-color: #c82333;
+  }
+  
+  .task-box:hover {
+    transform: translateY(-5px);
+  }
+  
